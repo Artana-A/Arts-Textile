@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PaymentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="748dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/tvSaldo"
+            style="@style/Style.Text.Name"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="Saldo: Rp1.000.000,00"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPay"
+            android:layout_width="match_parent"
+            android:layout_height="391dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Total Pembelian"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            style="@style/Style.Text.Name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Rp. 0"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvSisaSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            style="@style/Style.Text.Price"
+            android:text="Sisa Saldo: Rp. 0"
+            android:textSize="25dp"
+            android:paddingTop="25dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnBuy"
+            style="@style/Style.Button.AddBuy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BUY"
+            android:textSize="30sp">
+
+        </Button>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

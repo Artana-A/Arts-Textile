@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chocolate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cream</item>
+        <item name="android:statusBarColor">@color/light_choco</item>
+        <item name="android:navigationBarColor">@color/dark_choco</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="Style.Button.Regular" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/cream</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">12dp</item> </style>
+
+    <style name="Style.Button.AddBuy" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/light_choco</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">25dp</item> <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:textAllCaps">true</item> </style>
+
+    <style name="Theme.Chocolate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_choco</item>
+    </style>
+
+    <style name="Theme.App.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_app</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.Chocolate</item>
+    </style>
+
+    <style name="Style.Card.Textile" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/cream</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
+    <style name="Style.Text.Name" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Style.Text.Type" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/light_choco</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Style.Text.Price" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/dark_choco</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
+
